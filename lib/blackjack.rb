@@ -40,6 +40,7 @@ end
 def hit?(current_sum)
   # code hit? here
   prompt_user
+  get_user_input
   if get_user_input == 's'
     !deal_card
   elsif get_user_input == 'h'
