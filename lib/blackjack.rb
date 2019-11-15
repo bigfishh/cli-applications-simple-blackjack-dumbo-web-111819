@@ -39,7 +39,7 @@ end
 
 def hit?(num)
   # code hit? here
-  
+  prompt_user
 end
 
 def invalid_command
