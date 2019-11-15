@@ -40,6 +40,12 @@ end
 def hit?(num)
   # code hit? here
   prompt_user
+  if get_user_input == 'h'
+    deal_card
+  else get_user_input != 's' || get_user_input != 'h'
+    invalid_command
+    prompt_user
+  end
 end
 
 def invalid_command
