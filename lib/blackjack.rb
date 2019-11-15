@@ -45,8 +45,8 @@ def hit?(num)
     deal_card
   else get_user_input != 's' && get_user_input != 'h'
     invalid_command
-    prompt_user
   end
+  prompt_user
   initial_round
 end
 
