@@ -43,6 +43,7 @@ def hit?(current_sum)
   if get_user_input == 'h'
     current_sum += deal_card
   end
+  current_sum
 end
 
 def invalid_command
