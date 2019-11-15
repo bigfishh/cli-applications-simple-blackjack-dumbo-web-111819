@@ -46,9 +46,9 @@ def hit?(current_sum)
   elsif input == 's'
     current_sum
   else
-    invalid_command
-    prompt_user
-    input
+    invalid_command()
+    prompt_user()
+    input()
   end
   current_sum
 end
