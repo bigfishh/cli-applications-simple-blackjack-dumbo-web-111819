@@ -42,7 +42,7 @@ def hit?(num)
   prompt_user
   if get_user_input == 'h'
     deal_card
-  else get_user_input != 's' || get_user_input != 'h'
+  else get_user_input != 's' && get_user_input != 'h'
     puts "Please enter a valid command"
     prompt_user
   end
