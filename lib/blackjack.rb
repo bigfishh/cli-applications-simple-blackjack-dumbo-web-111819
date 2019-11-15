@@ -50,6 +50,7 @@ def hit?(current_sum)
     prompt_user
     input
   end
+  current_sum
 end
 
 def invalid_command
