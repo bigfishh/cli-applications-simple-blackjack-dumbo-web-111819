@@ -43,7 +43,7 @@ def hit?(current_sum)
   if get_user_input == 'h'
     current_sum += deal_card
   else
-    prompt_user
+    
   end
   current_sum
 end
