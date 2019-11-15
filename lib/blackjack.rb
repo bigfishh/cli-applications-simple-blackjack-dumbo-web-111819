@@ -44,7 +44,7 @@ def hit?(num)
   if get_user_input == 'h'
     deal_card
   else get_user_input != 's' || get_user_input != 'h'
-    prompt_user
+    
   end
 end
 
